@@ -1,0 +1,171 @@
+/* Estilização global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2e6; /* Verde claro */
+    color: #2e5d2e; /* Verde escuro */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container do formulário */
+.container {
+    background-color: #d9ead3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    padding: 8px;
+    width: 80%;
+    border: 1px solid #2e5d2e;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Botão */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Tabela de eventos */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #2e5d2e;
+    padding: 10px;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #c8e6c9;
+}
+
+/* Link de logout */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #388e3c;
+}
+
+/* Estiliza a div que contém a tabela */
+.eventos-container {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Estiliza a tabela */
+.eventos {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+.eventos th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Linhas da tabela */
+.eventos td, .eventos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Alternar cor de fundo entre linhas */
+.eventos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Quando passa o mouse */
+.eventos tr:hover {
+    background-color: #ddd;
+}
+
+/* Estiliza a mensagem "Nenhum evento encontrado" */
+.no-eventos {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Estiliza o botão de logout */
+.logout {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #d9534f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 150px;
+}
+
+.logout:hover {
+    background-color: #c9302c;
+}
+
